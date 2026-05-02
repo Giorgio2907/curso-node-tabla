@@ -5,3 +5,37 @@ install yargs
 node index --help
 node index -b=8 -l
 node index -b=8
+
+//Segundo codigo
+node index -b=11 -l
+
+//Tercer codigo
+node index -b=20 -l --hasta=20
+
+//Git hub
+# 1. Configurar tu identidad en Git
+git config --global user.email "imanol.ticona@unmsm.edu.pe"
+git config --global user.name "Giorgio2907"
+
+# 2. Inicializar el repositorio local
+git init
+
+# 3. Agregar todos los archivos
+git add .
+
+# 4. Primer commit
+git commit -m "Primer Commit"
+
+# 5. Vincular con GitHub (reemplaza TU_USUARIO con tu usuario de GitHub)
+git remote add origin https://github.com/TU_USUARIO/curso-node-tabla.git
+
+# 6. Renombrar la rama a main
+git branch -M main
+
+# 7. Subir a GitHub
+git push -u origin main
+
+# 8. Para subidas posteriores (como el README)
+git add .
+git commit -m "Readme Agregado"
+git push
