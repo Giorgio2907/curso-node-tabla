@@ -1,0 +1,7 @@
+Configuracion de yarg
+install color
+install yargs
+
+node index --help
+node index -b=8 -l
+node index -b=8
